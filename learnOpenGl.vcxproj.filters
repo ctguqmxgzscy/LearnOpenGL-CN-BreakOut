@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Photograph">
+      <UniqueIdentifier>{b59ad3d3-68fb-411c-9f12-805f51ff97fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3DWorld">
+      <UniqueIdentifier>{a9dc498d-61b4-4ba0-b907-c8bc47802d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyGame">
+      <UniqueIdentifier>{f2538ece-da62-4a23-834f-95dd0b9fa6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3DWorld">
+      <UniqueIdentifier>{bc0c8fce-c72e-4b87-81a1-1a06806c25d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MyGame">
+      <UniqueIdentifier>{1c95c545-aeab-439d-94ad-76176ef93e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\GameLevels">
+      <UniqueIdentifier>{bb87427e-3da9-426a-a3af-a86799204863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shaders">
+      <UniqueIdentifier>{a396c6d0-c576-43ae-beb7-b51475886881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Audio">
+      <UniqueIdentifier>{6bf97264-d336-4191-a123-3820c0af1940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Characters">
+      <UniqueIdentifier>{2bd385d9-df3a-4970-aca1-db084215d6e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件\3DWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\3DWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\3DWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\3DWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameShader.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTexture.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRender.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BallObject.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGenerator.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessor.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRender.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>源文件\MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="sprite.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </Text>
+    <Text Include="sprite.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\3DWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件\3DWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\3DWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\3DWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\3DWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTexture.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameShader.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRender.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BallObject.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGenerator.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessor.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRender.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>头文件\MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="right.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="container2.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="container2_specular.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="wall.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="awesomeface.jpg">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="particle.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_sticky.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_speed.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_chaos.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_confuse.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_increase.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+    <Image Include="powerup_passthrough.png">
+      <Filter>资源文件\Photograph</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="One.lvl">
+      <Filter>资源文件\GameLevels</Filter>
+    </None>
+    <None Include="Three.lvl">
+      <Filter>资源文件\GameLevels</Filter>
+    </None>
+    <None Include="Two.lvl">
+      <Filter>资源文件\GameLevels</Filter>
+    </None>
+    <None Include="Four.lvl">
+      <Filter>资源文件\GameLevels</Filter>
+    </None>
+    <None Include="Container.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="Container.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="lightShader.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="lightShader.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="ModelShader.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="ModelShader.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="particle.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="particle.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="post_processing.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="post_processing.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="text_render.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="text_render.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="vertexSource.vert">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+    <None Include="fragmentSource.frag">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="learnOpenGl.rc">
+      <Filter>资源文件\Photograph</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="solid.wav">
+      <Filter>资源文件\Audio</Filter>
+    </Media>
+    <Media Include="bleep.wav">
+      <Filter>资源文件\Audio</Filter>
+    </Media>
+    <Media Include="bleep.mp3">
+      <Filter>资源文件\Audio</Filter>
+    </Media>
+    <Media Include="breakout.mp3">
+      <Filter>资源文件\Audio</Filter>
+    </Media>
+    <Media Include="powerup.wav">
+      <Filter>资源文件\Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Characters.ttf">
+      <Filter>资源文件\Characters</Filter>
+    </Font>
+    <Font Include="Structia Panel.ttf">
+      <Filter>资源文件\Characters</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
